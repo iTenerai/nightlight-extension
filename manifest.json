@@ -1,0 +1,22 @@
+{
+    "name": "Nightlight",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "This browser extension allows you to view your profile activity instantly ",
+    "homepage_url": "https://github.com/iTenerai/nightlight-extension",
+    "icons": {
+      "38": "img/icon38.png",
+      "128": "img/icon128.png"
+    },
+    "author": "iTenerai",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Nightlight Activity"
+    },
+    "host_permissions": [
+        "https://night-light.cz/"
+    ],
+    "permissions": [
+        "cookies"
+    ]
+}
